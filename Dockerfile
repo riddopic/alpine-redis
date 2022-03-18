@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.15
 MAINTAINER madlyseason@icloud.com
 
 RUN apk add --update redis && rm -rf /var/cache/apk/*
